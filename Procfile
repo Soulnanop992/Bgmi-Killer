@@ -1,1 +1,1 @@
-web: gunicorn --worker-class gevent --workers 16 --bind 0.0.0.0:$PORT bgmi_api:app
+web: python3 bgmi_api.py
