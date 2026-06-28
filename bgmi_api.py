@@ -469,4 +469,6 @@ if __name__ == '__main__':
     print("[!] BGMI server crash guaranteed within 3-5 seconds")
     print("=" * 60)
     
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), threaded=True, debug=False)
+    # bgmi_api.py - last line change
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)), threaded=True, debug=False)
